@@ -15,15 +15,16 @@ body {
     clear: both;
   }
   .box-set {
-    background: #fff;
-    *zoom: 1;
-    display: inline-flex;
+    background: lightgreen;
+    /* *zoom: 1; */
+    /* display: inline-flex; */
   }
   
   .box {
     background: #2db34a;
     float: left;
     margin: 1.5% 1.5%;
+    margin-right: 0px;
     padding: 20px 20px;
     text-align: center;
     height: 20px;
