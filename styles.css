@@ -1,0 +1,41 @@
+body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .box-set,
+  .box {
+    border-radius: 6px;
+  }
+  .box-set:before,
+  .box-set:after {
+    content: "";
+    display: table;
+  }
+  .box-set:after {
+    clear: both;
+  }
+  .box-set {
+    background: #fff;
+    *zoom: 1;
+  }
+  
+  .box {
+    background: #2db34a;
+    float: left;
+    margin: 1.5% .2%;
+    padding: 20px 0;
+    text-align: center;
+    width: 10%;
+    height: 20px;
+    font-size:15px;
+  }
+  
+  .box:hover{
+    font-size:0;
+  }
+  
+  .box:hover:after{
+    content: attr(data-hover);
+    font-size:15px;
+  }
+  
