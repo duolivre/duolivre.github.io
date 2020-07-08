@@ -35,8 +35,17 @@ body {
   .box:hover{
     font-size:0;
   }
+
+  .box:focus{
+    font-size:0;
+  }
   
-  .box:hover:after{
+  .box:hover:after {
+    content: attr(data-hover);
+    font-size:15px;
+  }
+
+  .box:focus:after{
     content: attr(data-hover);
     font-size:15px;
   }
