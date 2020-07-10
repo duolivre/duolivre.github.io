@@ -1,6 +1,7 @@
 body {
     color: black;
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    font: 300 14px/24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
 #container {
@@ -11,11 +12,21 @@ img {
     border: 1px solid black;
 }
 
-  .responsive {
+.responsive {
     max-width: 100%;
     height: auto;
-  }
+}
 
+h1 {
+    font-size: x-large;
+    color: #16005d;
+}
+
+h2 {
+    font-size: medium;
+}
+
+/* 
   .box-set,
   .box {
     border-radius: 6px;
@@ -30,8 +41,8 @@ img {
   }
   .box-set {
     background: lightgreen;
-    /* *zoom: 1; */
-    /* display: inline-flex; */
+    /* *zoom: 1; 
+    /* display: inline-flex; 
   }
   
   .box {
@@ -43,7 +54,7 @@ img {
     text-align: center;
     height: 20px;
     font-size:15px;
-    /* display: inline-table */
+    /* display: inline-table 
   }
   
   .box:hover{
@@ -63,4 +74,4 @@ img {
     content: attr(data-hover);
     font-size:15px;
   }
-  
+   */
