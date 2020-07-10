@@ -1,7 +1,21 @@
 body {
-    color: #fff;
+    color: black;
     font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   }
+
+#container {
+    text-align: center
+}
+
+img {
+    border: 1px solid black;
+}
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
   .box-set,
   .box {
     border-radius: 6px;
